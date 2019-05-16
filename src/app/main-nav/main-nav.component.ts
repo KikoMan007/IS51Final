@@ -12,6 +12,7 @@ export class MainNavComponent implements OnInit {
   constructor(private router: Router, private toastService: ToastService) { }
 
   ngOnInit() {
-  }
+
+}
 
 }

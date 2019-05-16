@@ -16,4 +16,5 @@ export class ToastService {
   showToast(type: string, timeout: number, message: string) {
     this.toastChanged.next({ type: type, timeout: timeout, message: message });
   }
+
 }
