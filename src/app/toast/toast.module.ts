@@ -9,6 +9,7 @@ import { ToastService } from './toast.service';
   imports: [
     CommonModule,
     AlertModule.forRoot(),
+    ToastComponent
   ],
   declarations: [
     ToastComponent
